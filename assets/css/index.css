@@ -1,0 +1,160 @@
+.mainbox {
+  width: 100%;
+  background-color: #eaeaea;
+}
+.header_search {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 17px;
+}
+.search_input {
+  width: 100%;
+  height: 54px;
+  background-color: #d3d3d3;
+  border: 0;
+  margin: 21px 0px 21px 0px;
+  padding-left: 15px;
+}
+.navbar {
+  border: 0;
+  background-color: #2c2c2d;
+  height: 100px;
+  margin-bottom: 0;
+}
+.navbar .navbar-header .navbar-toggle {
+  border: 0;
+  padding: 0;
+  margin-top: 36px;
+  margin-right: 40px;
+}
+.navbar .navbar-header .navbar-toggle:hover,
+.navbar .navbar-header .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar .navbar-header .navbar-toggle .icon-bar {
+  background-color: #fff;
+  width: 40px;
+  height: 5px;
+}
+.navbar .navbar-header .navbar-toggle .icon-bar + .icon-bar {
+  margin-top: 7px;
+}
+.navbar .navbar-header .navbar-brand {
+  width: 244px;
+  height: 70px;
+  background: url("../imgs/taitanLogo@3x.png") left top no-repeat;
+  margin: 15px 0 15px 44px;
+  background-size: 244px 70px;
+}
+.navbar .navbar-collapse {
+  border: 0;
+}
+.navbar .navbar-collapse .navbar-nav {
+  position: relative;
+  z-index: 999;
+  margin: 0 -15px;
+  padding: 40px 0 49px 45px;
+  background-color: #4A4A4A;
+}
+.navbar .navbar-collapse .navbar-nav > li {
+  margin-top: 30px;
+}
+.navbar .navbar-collapse .navbar-nav > li > h3 {
+  clear: both;
+  font-size: 16px;
+  color: #fff;
+}
+.navbar .navbar-collapse .navbar-nav > li > a {
+  padding-left: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #dedede;
+  float: left;
+}
+.product {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.product .product_left,
+.product .product_right {
+  width: 49%;
+  height: 282px;
+  box-sizing: border-box;
+  margin-top: 15px;
+  position: relative;
+}
+.product .product_left h3,
+.product .product_right h3 {
+  position: absolute;
+  color: #fff;
+  font-size: 25px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 67px;
+}
+.product .product_left img,
+.product .product_right img {
+  width: 100%;
+  height: 100%;
+}
+.adv {
+  width: 100%;
+  height: 302px;
+  background: url("../imgs/wzsjkz.png") no-repeat;
+  background-size: 100% 100%;
+}
+.service {
+  width: 100%;
+  height: 458px;
+  background: url("../imgs/3xmhz.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+.footer .visit,
+.footer .call,
+.footer .email {
+  height: 200px;
+  width: 33.33%;
+  background-color: #2c2c2d;
+  box-sizing: border-box;
+  float: left;
+  text-align: center;
+  padding-top: 44px;
+}
+.footer .visit > a > img,
+.footer .call > a > img,
+.footer .email > a > img {
+  width: 62px;
+  height: 63px;
+}
+.footer .visit > a > h3,
+.footer .call > a > h3,
+.footer .email > a > h3 {
+  font-size: 20px;
+  line-height: 40px;
+  color: #fff;
+}
+.footer .visit > a > p,
+.footer .call > a > p,
+.footer .email > a > p {
+  font-size: 12px;
+  color: #fff;
+}
+.footer .call {
+  position: relative;
+}
+.footer .call::before,
+.footer .call::after {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 116px;
+  background-color: #ccc;
+  position: absolute;
+  top: 47px;
+}
+.footer .call::before {
+  left: 0;
+}
+.footer .call::after {
+  right: 0;
+}
